@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic structure</title>
+
+    <style>
+        table{
+            width: 25%;
+            border: 1px solid rgb(58, 58, 58) ;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 1px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <a name="Estructura"></a>
+        <h1>1.Estructura Basica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</p>
+    </div>
+
+    <div>
+        <h2>2.Encabezado y Propiedades del Texto</h2>
+    </div>
+    <div>
+        <p>
+            <b>Esto es un texto en negrita.</b>
+        </p>
+    </div>
+    <div>
+            <p>
+                <i>Esto es un texto en cursiva.</i>
+            </p>
+    </div>
+    <div>
+        <p>
+            <u>Esto es un texto subrayado.</u>
+        </p>
+    </div>
+
+    <div>
+        <h3>3.Divisiones y Agrupaciones de contenido</h3>
+    </div>
+    <div>
+        <h4>Seccion 1</h4>
+        <p>Contenido de la primera seccion agrupada en un div</p>
+    </div>
+    <div>
+        <h4>Seccion 2</h4>
+        <p>Contenido de la segunda agrupada en un div</p>
+    </div>
+
+    <div>
+        <h3>4.Enlaces y Listas</h3>
+    </div>
+    <div>
+        <p>Visita nuestro <a href="https://www.taylorswift.com/" target="_blank">sitio web</a> para mas informacion</p>
+    </div>
+    <div>
+        <p>Enlaces internos:</p>
+        <p>
+            <ul>
+                <li><a href="#Estructura">Ir a Estructura</a></li>
+                <li><a href="#Multimedia">Ir a Multimedia</a></li>
+                <li><a href="#Formulario">Ir a Formulario</a></li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <p>Listas desordenadas:</p>
+        <p>
+            <ul>
+                <li>Primer item de una lista desordenada</li>
+                <li>Segundo item de una lista desordenada</li>
+            </ul>
+        </p>
+    </div>
+    <div>
+        <p>Lista ordenada:</p>
+        <p>
+            <ol>
+                <li>Primer item de una lista ordenada</li>
+                <li>Segundo item de una lista desordenada</li>
+            </ol>
+        </p>
+    </div>
+
+    <div>
+        <a name="Multimedia"></a>
+        <h4>5.Multimedia</h4>
+        <img src="https://assets.teenvogue.com/photos/6622d04f726ccce66c088f50/16:9/w_1280,c_limit/The-Albatross%20(1).jpg" 
+            alt="Tortured Poets Department Album Cover" width="300px" height="250px">
+        <video width="350px" height="200px" controls width="400px">
+            <source src="multimedia/Taylor Swift - I Can Do It With A Broken Heart (Official Video).mp4" type="video/mp4">
+        </video>
+        <audio controls> 
+            <source src="multimedia/Taylor Swift - I Can Do It With A Broken Heart (Official Video).mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div>
+        <h5>6.Tablas</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>columna 1</th>
+                    <th>columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <a name="Formulario"></a>
+        <h6>7.Formulario</h6>
+        <form action="">
+            <label for="">Nombre:</label>
+            <input type="text">
+            <label for="">Apellido:</label>
+            <input type="text">
+            <label for="">Mensaje:</label>
+            <textarea name="" id=""></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
