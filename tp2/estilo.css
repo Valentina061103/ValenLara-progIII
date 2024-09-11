@@ -1,0 +1,160 @@
+.body{
+    margin: 0;
+    background-color: rgb(232, 229, 229);
+}
+.section{
+    background-color: white;
+    margin: 10px;
+    margin-left:80px;
+    margin-right:80px;
+    padding: 1px;
+    border-radius: 0.4rem;
+}
+.section3{
+    padding-bottom: 30px;
+}
+.encabezado{
+    color: white;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-style: normal;
+    font-size: 75%;
+    letter-spacing: 1px;
+    background-color: rgb(58, 56, 56);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: rgb(59, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding-left: 5px;
+    margin: 15px;
+    hr{
+        background-color: rgb(55, 55, 55);
+        height: 1px;
+    }
+}
+
+.parrafo{
+    color: rgb(113, 112, 112);
+    margin: 5px;
+    text-align: start;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 520;
+
+}
+
+.cita {
+    color: rgb(151, 149, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    background-color: rgb(236, 235, 235);
+    margin: 20px;
+    padding-left: 5px;
+    padding: 12px;
+    border-left: 4px solid rgb(208, 208, 208);
+}
+
+
+.box1{
+    color: rgb(51, 51, 51);
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: rgb(238, 248, 248);
+    padding: 15px;
+    margin: 18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    box-shadow: 5px 7px 10px 0px rgb(75, 75, 75);
+}
+.box2{
+    background-color: rgb(243, 190, 239);
+    border: 4px solid rgb(72, 72, 72);
+    border-radius: 0.4rem;
+    box-shadow: 5px 7px 10px 0px rgb(75, 75, 75);
+}
+
+.relative{
+    color: rgb(51, 51, 51);
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 15px;
+    margin: 18px;
+    background-color: rgb(205, 236, 241);
+    position: relative;
+}
+
+.absolute{
+    color: white;
+    font-weight: 400;
+    background-color: rgb(35, 99, 71);
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.grid-container{
+    text-align: center;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+}
+
+.grid-item{
+    background-color: rgb(98, 98, 181);
+    color: white;
+    border-radius: 0.4rem;
+    padding: 10px;
+    margin: 15px;
+}
+
+.mover{
+    background-color: rgb(238, 79, 106);
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 5rem;
+    animation: mover 4s infinite;
+}
+@keyframes mover{
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(350px);
+    }
+    1000% {
+        transform: translateX(0);
+    }
+}
+
+.animacion{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 79, 106);
+    transition: 0.4s;
+}
+.animacion:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+@media (max-width:768px){
+    .body{
+        background-color: rgb(204, 175, 204);
+    }
+}
