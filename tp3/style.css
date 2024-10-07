@@ -1,0 +1,74 @@
+.blueText{
+  color: blue;
+}
+
+.parrafos{
+  font-family: Arial;
+  font-size: medium;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+#button{
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(163, 224, 219);
+  color: rgb(5, 5, 138);
+  font-family: Arial;
+}
+
+.dos{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2px;
+}
+.texto{
+  font-family: Arial;
+  font-size: medium;
+  font-weight: 500;
+}
+#input{
+  padding: 5px;
+}
+#button2{
+  padding: 5px;
+  font-family: Arial;
+  font-weight: 600;
+}
+
+#lista{
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.styleText{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.correo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.text1{
+  font-family: Arial;
+  font-size: medium;
+  font-weight: 500;
+}
+
+#contenedorCorreo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2px;
+  font-family: Arial;
+  font-size: medium;
+  font-weight: 500;
+}
+
